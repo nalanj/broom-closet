@@ -1,0 +1,4 @@
+.github/*
+*.test.js
+biome.json
+CHANGELOG.md
