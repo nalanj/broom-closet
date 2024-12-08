@@ -4,7 +4,8 @@
 	"version": "0.0.0",
 	"description": "Useful functions. That's all.",
 	"exports": {
-		"./try-catch": "./try-catch.js"
+		"./try-catch": "./try-catch.js",
+		"./prepare-args": "./prepare-args.js"
 	},
 	"scripts": {
 		"fix": "biome check --write",
