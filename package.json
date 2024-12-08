@@ -1,7 +1,7 @@
 {
 	"name": "broom-closet",
 	"type": "module",
-	"version": "0.0.1",
+	"version": "0.0.0",
 	"description": "Useful functions. That's all.",
 	"exports": {
 		"./try-catch": "./try-catch.js"
