@@ -2,6 +2,12 @@
 
 Useful functions. That's all.
 
+## Installation
+
+```
+npm install broom-closet
+```
+
 ## Functions
 
 ### tryCatch(fn)
