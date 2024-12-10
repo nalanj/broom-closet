@@ -26,7 +26,11 @@ const [error, result] = tryCatch(mightThrow());
 const [error, stat] = await tryCatch(fs.stat("/path/to/file"));
 ```
 
+*Added in*: v0.0.1
+
 ### prepareArgs(fn, ...args)
+
+
 
 Prepare a function for future calls by handing it some parameters. This is sort
 of like currying, except that there's no accounting for number of arguments.
@@ -41,3 +45,5 @@ function sum(x, y) {
 const addOne = prepareArgs(sum, 1);
 addOne(8); // returns 9
 ```
+
+*Added in*: v0.0.1
