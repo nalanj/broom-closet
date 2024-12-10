@@ -1,32 +1,30 @@
 {
-	"name": "broom-closet",
-	"type": "module",
-	"version": "0.0.1",
-	"description": "Useful functions. That's all.",
-	"exports": {
-		"./try-catch": "./try-catch.js",
-		"./prepare-args": "./prepare-args.js"
-	},
-	"scripts": {
-		"fix": "biome check --write",
-		"test": "biome check && node --test",
-		"citest": "biome check && node --test --test-reporter node-test-github-reporter"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/nalanj/broom-closet.git"
-	},
-	"keywords": [
-		"utilities"
-	],
-	"author": "Alan Johnson",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/nalanj/broom-closet/issues"
-	},
-	"homepage": "https://github.com/nalanj/broom-closet#readme",
-	"devDependencies": {
-		"@biomejs/biome": "1.9.4",
-		"node-test-github-reporter": "1.2.0"
-	}
+  "name": "broom-closet",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "Useful functions. That's all.",
+  "exports": {
+    "./try-catch": "./try-catch.js",
+    "./prepare-args": "./prepare-args.js"
+  },
+  "scripts": {
+    "fix": "biome check --write",
+    "test": "biome check && node --test",
+    "citest": "biome check && node --test --test-reporter node-test-github-reporter"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nalanj/broom-closet.git"
+  },
+  "keywords": ["utilities"],
+  "author": "Alan Johnson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nalanj/broom-closet/issues"
+  },
+  "homepage": "https://github.com/nalanj/broom-closet#readme",
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "node-test-github-reporter": "1.2.0"
+  }
 }

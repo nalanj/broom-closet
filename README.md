@@ -39,7 +39,7 @@ Example:
 
 ```js
 function sum(x, y) {
-	return x + y;
+  return x + y;
 }
 
 const addOne = prepareArgs(sum, 1);
