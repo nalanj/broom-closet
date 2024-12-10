@@ -26,7 +26,7 @@ const [error, result] = tryCatch(mightThrow());
 const [error, stat] = await tryCatch(fs.stat("/path/to/file"));
 ```
 
-*Added in*: v0.0.1
+*Added in v0.0.1*
 
 ### prepareArgs(fn, ...args)
 
@@ -46,4 +46,4 @@ const addOne = prepareArgs(sum, 1);
 addOne(8); // returns 9
 ```
 
-*Added in*: v0.0.1
+*Added in v0.0.1*
